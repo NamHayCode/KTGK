@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Customer Form</h2>
+    <div class="box">
+        <div style="display: flex;"><p>Full Name</p> <input type="text" name="fullname" placeholder="Your full name.."></div>
+        <div style="display: flex;"><p>Email</p> <input style="margin-left: 32px;"type="text" name="email" placeholder="Your email..."></div>
+        <div style="display: flex;"><p>Phone</p> <input style="margin-left: 26px;" type="text" name="phone" placeholder="Your phone..."></div>
+        <div style="display: flex;">
+            <p>Gender:</p>
+            <input style="margin-left: 12px;" type="radio" name="sex" value="male"> <div class="sex">Male</div>
+            <input type="radio" name="sex" value="female"><div class="sex">Female</div>
+            <input type="radio" name="sex" value="0ther"><div class="sex">Other</div>
+        </div>
+        <div style="display: flex;">
+            <p>Country</p>
+            <select style="margin-left: 14px;">
+                <option value="option1">Việt Nam</option>
+                <option value="option2">Đông Lào</option>
+            </select>
+        </div>
+        <div style="display: flex;">
+            <p>Comment</p>
+            <textarea name="Comment" style="height: 100px; resize: none;" placeholder="Write something..."></textarea>
+        </div>
+        <div>
+            <button style="margin-left: 440px; background-color: orangered;">Submit</button>
+            <button style="background-color: aquamarine;">Reset</button>
+        </div>
+    </div>
+</body>
+</html>
